@@ -3,7 +3,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-weight: normal;
+  font-weight: 700;
   vertical-align: baseline;
   background: transparent;
 }
@@ -49,7 +49,7 @@ q:after {
 }
 
 a {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-size: 100%;
   vertical-align: baseline;
@@ -61,7 +61,7 @@ del {
 }
 
 abbr[title], dfn[title] {
-  border-bottom: 1px dotted #000;
+  border-bottom: 0px dotted #000;
   cursor: help;
 }
 
@@ -190,7 +190,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 code,
@@ -208,7 +208,7 @@ body {
 }
 
 a {
-  color: #1fc8db;
+  color: #4FAF03;
   cursor: pointer;
   text-decoration: none;
   transition: none 86ms ease-out;
@@ -2853,12 +2853,11 @@ table th {
 
 .menu-heading {
   background: #f5f7fa;
-  border-bottom: 1px solid #d3d6db;
   border-radius: 4px 4px 0 0;
   color: #222324;
   font-size: 18px;
   font-weight: 300;
-  padding: 10px;
+  padding: 30px 0 10px 0;
 }
 
 .menu-list a {
@@ -2871,8 +2870,10 @@ table th {
 
 .menu-tabs {
   display: flex;
-  font-size: 11px;
-  padding: 5px 10px 0;
+  font-size: 12px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  padding: 10px 0 20px 0; 
   justify-content: center;
 }
 
@@ -2938,7 +2939,6 @@ a.menu-block:hover {
 }
 
 .menu {
-  border: 1px solid #d3d6db;
   border-radius: 5px;
 }
 
